@@ -50,7 +50,8 @@ while True:
             extrato += f"Saque: R$ {valor:.2f} - Data e Hora: {data_hora_saque}\n"
             numero_saques += 1
             saques_restantes = LIMITE_SAQUES - numero_saques
-            print(f"Saque realizado com sucesso! Você ainda pode realizar {saques_restantes} saques hoje.")
+            print(
+                f"Saque realizado com sucesso! Você ainda pode realizar {saques_restantes} saques hoje.")
 
         else:
             print("Operação falhou! O valor informado é inválido.")
